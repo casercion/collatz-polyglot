@@ -20,8 +20,8 @@ if (process.argv.length >= 3){
   start=process.argv[2]
 }
 else{
-  start=7;
-  console.log("7 is the default value. Add an argument to the command line next time!");
+  start=14;
+  console.log("14 is the default value. Add an argument to the command line next time!");
 }
 collatz(start);
 console.log( "The length of Collatz sequence for " + start + " is " + length);
